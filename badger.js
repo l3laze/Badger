@@ -26,9 +26,12 @@ function craftBadge( info ) {
         '<a href="{{ home }}" class="badger-home" title="Homepage">' +
           '<i class="fa fa-home"></i>' +
         '</a>' +
-        '<a href="{{ license }}" class="badger-license" title="License">' +
-          '<i class="fa fa-file"></i>' +
-        '</a>' +
+        ( info.license !== "" ?
+          '<a href="{{ license }}" class="badger-license" title="License">' +
+            '<i class="fa fa-file"></i>' +
+          '</a>'
+          : ""
+        ) +
       '</span>' +
     '</div>'
   );

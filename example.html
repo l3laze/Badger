@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Badger Test</title>
+    <link rel="stylesheet" href="badger.css">
+    <link rel="stylesheet" href="node_modules/w3-css/w3.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <script src="badger.js"></script>
+  </head>
+  <body>
+    <div class="badger-container"></div>
+    <script type="text/javascript"><!--
+      function addBadgeData() {
+        var badges = [
+          {
+            name: "Badger",
+            home: "https://github.com/l3laze/Badger",
+            license: "https://github.com/l3laze/Badger/blob/master/LICENSE.md"
+          },
+          w3css = {
+            name: "W3.CSS",
+            home: "https://www.w3schools.com",
+            license: ""
+          },
+          {
+            name: "Font-Awesome",
+            home: "http://fontawesome.io/",
+            license: "http://fontawesome.io/license/"
+          }
+        ],
+        badgerContainer = document.getElementsByClassName( "badger-container" )[ 0 ];
+        for( var b in badges ) {
+          badgerContainer.appendChild( craftBadge( badges[ b ]));
+        }
+      }
+
+      window.addEventListener( "DOMContentLoaded", addBadgeData );
+    --></script>
+  </body>
+</html>
