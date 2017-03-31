@@ -99,8 +99,9 @@ Badger
 
   Change Log
   ==========
-
-  * 1.0.0
+  * 2.0.2
+    * FIX: Template will no longer generate a link for an empty license property.
+  * 2.0.1
     * Initial release.
 
   Contact
