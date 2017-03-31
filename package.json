@@ -1,0 +1,17 @@
+{
+  "name": "Badger",
+  "version": "v1.0.0",
+  "description": "",
+  "main": "badger.js",
+  "author": "l3l_aze <l3l_aze@yahoo.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/l3laze/Badger",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/l3laze/Badger.git"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "w3-css": "^2.9.9"
+  }
+}
