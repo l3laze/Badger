@@ -107,7 +107,7 @@ Badger
   =======
 
   l3l_aze (Tom Shaver)
-  [GitHub]([https://github.com/l3laze/) [e-mail](mailto:l3l_aze@yahoo.com)
+  [GitHub]([https://github.com/l3laze) [e-mail](mailto:l3l_aze@yahoo.com)
 
   Distributed under the MIT license. See [LICENSE](https://github.com/l3laze/Badger.js/blob/master/LICENSE.md) for more information.
 
