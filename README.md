@@ -99,6 +99,8 @@ Badger
 
   Change Log
   ==========
+  * 2.0.3
+    * FIX: Changed padding- to margin- for the icon links.
   * 2.0.2
     * FIX: Template will no longer generate a link for an empty license property.
   * 2.0.1
