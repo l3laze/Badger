@@ -21,10 +21,10 @@
   float: right;
 }
 
-.badger-container .badger-home {
-  padding-right: 8px;
+.badger-container .badger-home, .badger-container .badger-license {
+  margin-right: 8px;
 }
 
-.badger-container .badger-license {
-  padding-right: 8px;
+.badger-container .badger-home i.fa, .badger-container .badger-license i.fa {
+  cursor: pointer;
 }
